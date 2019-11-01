@@ -1,0 +1,102 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title> Cart </title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/cart.css">
+</head>
+
+<body style="background-image: url('img/cafeteria.jpeg'); background-repeat: no-repeat; background-size: cover; background-position: center center; background-attachment: fixed;">
+    <div class="nav-css">
+        <nav class="navbar navbar-default navbar-expand-lg">
+            <div class="col-sm-11"> <h2> <a class="nametag" href="/"> Online Cafeteria </a> </h2> </div>
+            <div class="col-sm-1"> <input class="btn-default submit" type="submit" value="Log out" onclick="document.cookie = 'name= ;path=/';document.cookie = 'phone= ;path=/';window.location.href ='index.html'"> </div>
+        </nav>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="row justify-content-center align-self-center vertical-center">
+                    <h1 id="cart_label"> Your cart currently has: </h1>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="row justify-content-center align-self-center vertical-center" style="background-image: url('img/cafeteria-tray.png'); background-repeat: no-repeat; background-size: contain; max-width: 750px; max-height: 2000px; margin: auto auto; background-position: center center; padding: 40px;">
+                    
+                    <ul id="cart" class="list-unstyled" style="max-width: 300px; max-height: 700px; overflow-y: auto; padding: 40px;"> </ul>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="row justify-content-center align-self-center vertical-center">
+                    <div id="test"> <br> <input id="EditCartBtn" class="btn-default submit" type="submit" value="Edit cart" onclick="window.location.href ='edit_order.html'"> <br><br> </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="row justify-content-center align-self-center vertical-center">
+                    <div> <input id="AddToCartBtn" class="btn-default submit" type="submit" value="Add to cart" onclick="window.location.href ='place_order.html'"> <br><br> </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="row justify-content-center align-self-center vertical-center">
+                    <div> <input id="CheckStatusBtn" class="btn-default submit" type="submit" value="Check order(s) status" onclick="window.location.href ='order_status.html'"> <br><br> </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="row justify-content-center align-self-center vertical-center">
+                        <div> <input id="ViewPastOrderBtn" class="btn-default submit" type="submit" value="View past order(s)" onclick="window.location.href ='order_history.html'"> <br><br> </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="row justify-content-center align-self-center vertical-center">
+                        <div> <input id="PlaceOrderBtn" class="btn-default submit" type="submit" value="Place order" onclick="window.location.href ='/payment'"> <br><br> </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="row justify-content-center align-self-center vertical-center">
+                        <div> <input id="SeeAllOrdersBtn" class="btn-default submit" type="submit" value="See all orders" onclick="window.location.href ='all_order.html'"> <br><br> </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+    <script src="https://media3485.blob.core.windows.net/media/owl.carousel.min.js"></script>
+    <script src="js/wow.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/cart.js"></script>
+    <script src="js/hide_admin_button.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>

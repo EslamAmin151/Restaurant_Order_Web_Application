@@ -1,0 +1,4 @@
+node_modules/
+package-lock.json
+views/.DS_Store
+app.js

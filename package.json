@@ -1,0 +1,27 @@
+{
+  "name": "Restaurant_Order_Web_Application",
+  "version": "1.0.0",
+  "description": "",
+  "main": "views/index.js",
+  "scripts": {
+    "test": "tests/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ev2900/Restaurant_Order_Web_Application"
+  },
+  "author": "Christopher Sharkey",
+  "license": "",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "https://github.com/ev2900/Restaurant_Order_Web_Application#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "braintree": "^2.20.0",
+    "ejs": "^2.7.1",
+    "express": "^4.17.1",
+    "nodemon": "^1.19.2",
+    "path": "^0.12.7"
+  }
+}
